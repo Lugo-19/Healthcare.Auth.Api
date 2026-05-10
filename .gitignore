@@ -1,0 +1,41 @@
+## Build output
+bin/
+obj/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Logs
+**/Resources/Logs/*
+!**/Resources/Logs/.gitkeep
+*.log
+
+## Environment & secrets
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+.env
+*.env
+
+## User secrets
+secrets.json
+
+## NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Rider / JetBrains
+.idea/
+
+## Coverage & test results
+coverage/
+TestResults/

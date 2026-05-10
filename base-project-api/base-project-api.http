@@ -1,0 +1,19 @@
+@base_project_api_HostAddress = https://localhost:7119
+
+### Weather Forecast - GET
+GET {{base_project_api_HostAddress}}/api/v1/WeatherForecast
+Accept: application/json
+
+###
+
+### Health - General
+GET {{base_project_api_HostAddress}}/health
+Accept: application/json
+
+###
+
+### Health - Base de datos
+GET {{base_project_api_HostAddress}}/health/db
+Accept: application/json
+
+###

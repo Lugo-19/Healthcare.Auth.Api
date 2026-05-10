@@ -1,0 +1,5 @@
+﻿<Solution>
+  <Project Path="base-project-api/Healthcare.Auth.Api.csproj" />
+  <Project Path="base-project-api-tests/Healthcare.Auth.Api.Tests.csproj" />
+</Solution>
+
